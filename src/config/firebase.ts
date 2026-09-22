@@ -4,13 +4,13 @@ import { getAuth } from 'firebase/auth';
 import { getAnalytics, isSupported } from 'firebase/analytics';
 
 const firebaseConfig = {
-  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || 'AIzaSyANZAlzhgb9f4enweu9TcAo25JzgUcDkZs',
-  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || 'collage-d7daa.firebaseapp.com',
-  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || 'collage-d7daa',
-  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || 'collage-d7daa.firebasestorage.app',
-  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || '1071634777244',
-  appId: import.meta.env.VITE_FIREBASE_APP_ID || '1:1071634777244:web:ddc262f31d056443c89959',
-  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || 'G-590SBSTGXN',
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY || '',
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN || '',
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID || '',
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET || '',
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID || '',
+  appId: import.meta.env.VITE_FIREBASE_APP_ID || '',
+  measurementId: import.meta.env.VITE_FIREBASE_MEASUREMENT_ID || '',
 };
 
 // Initialize Firebase App
